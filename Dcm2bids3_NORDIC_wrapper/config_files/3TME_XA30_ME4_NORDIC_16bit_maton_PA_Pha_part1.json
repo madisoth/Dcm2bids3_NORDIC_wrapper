@@ -1,0 +1,383 @@
+{
+    "descriptions": [
+        {
+            "datatype": "func",
+            "suffix": "bold",
+            "custom_entities": "task-restME_echo-1_part-mag",
+            "criteria": {
+                "SeriesDescription": "*rest_ep2d_bold_4ME_16MIN_16bit_maton*",
+                "EchoNumber": 1,
+                "SidecarFilename": "*_e1.json",
+                "ImageTypeText": [
+                    "ORIGINAL",
+                    "PRIMARY",
+                    "M",
+                    "MB",
+                    "TE1",
+                    "ND",
+                    "NORM"
+                ]
+            }
+        },
+        {
+            "datatype": "func",
+            "suffix": "bold",
+            "custom_entities": "task-restME_echo-2_part-mag",
+            "criteria": {
+                "SeriesDescription": "*rest_ep2d_bold_4ME_16MIN_16bit_maton*",
+                "EchoNumber": 2,
+                "SidecarFilename": "*_e2.json",
+                "ImageTypeText": [
+                    "ORIGINAL",
+                    "PRIMARY",
+                    "M",
+                    "MB",
+                    "TE2",
+                    "ND",
+                    "NORM"
+                ]
+            }
+        },
+        {
+            "datatype": "func",
+            "suffix": "bold",
+            "custom_entities": "task-restME_echo-3_part-mag",
+            "criteria": {
+                "SeriesDescription": "*rest_ep2d_bold_4ME_16MIN_16bit_maton*",
+                "EchoNumber": 3,
+                "SidecarFilename": "*_e3.json",
+                "ImageTypeText": [
+                    "ORIGINAL",
+                    "PRIMARY",
+                    "M",
+                    "MB",
+                    "TE3",
+                    "ND",
+                    "NORM"
+                ]
+            }
+        },
+        {
+            "datatype": "func",
+            "suffix": "bold",
+            "custom_entities": "task-restME_echo-4_part-mag",
+            "criteria": {
+                "SeriesDescription": "*rest_ep2d_bold_4ME_16MIN_16bit_maton*",
+                "EchoNumber": 4,
+                "SidecarFilename": "*_e4.json",
+                "ImageTypeText": [
+                    "ORIGINAL",
+                    "PRIMARY",
+                    "M",
+                    "MB",
+                    "TE4",
+                    "ND",
+                    "NORM"
+                ]
+            }
+        },
+        {
+            "datatype": "func",
+            "suffix": "bold",
+            "custom_entities": "task-restME_echo-1_part-mag",
+            "criteria": {
+                "SeriesDescription": "*rest_ep2d_bold_4ME_10MIN_16bit_maton*",
+                "EchoNumber": 1,
+                "SidecarFilename": "*_e1.json",
+                "ImageTypeText": [
+                    "ORIGINAL",
+                    "PRIMARY",
+                    "M",
+                    "MB",
+                    "TE1",
+                    "ND",
+                    "NORM"
+                ]
+            }
+        },
+        {
+            "datatype": "func",
+            "suffix": "bold",
+            "custom_entities": "task-restME_echo-2_part-mag",
+            "criteria": {
+                "SeriesDescription": "*rest_ep2d_bold_4ME_10MIN_16bit_maton*",
+                "EchoNumber": 2,
+                "ImageTypeText": [
+                    "ORIGINAL",
+                    "PRIMARY",
+                    "M",
+                    "MB",
+                    "TE2",
+                    "ND",
+                    "NORM"
+                ]
+            }
+        },
+        {
+            "datatype": "func",
+            "suffix": "bold",
+            "custom_entities": "task-restME_echo-3_part-mag",
+            "criteria": {
+                "SeriesDescription": "*rest_ep2d_bold_4ME_10MIN_16bit_maton*",
+                "EchoNumber": 3,
+                "SidecarFilename": "*_e3.json",
+                "ImageTypeText": [
+                    "ORIGINAL",
+                    "PRIMARY",
+                    "M",
+                    "MB",
+                    "TE3",
+                    "ND",
+                    "NORM"
+                ]
+            }
+        },
+        {
+            "datatype": "func",
+            "suffix": "bold",
+            "custom_entities": "task-restME_echo-4_part-mag",
+            "criteria": {
+                "SeriesDescription": "*rest_ep2d_bold_4ME_10MIN_16bit_maton*",
+                "EchoNumber": 4,
+                "SidecarFilename": "*_e4.json",
+                "ImageTypeText": [
+                    "ORIGINAL",
+                    "PRIMARY",
+                    "M",
+                    "MB",
+                    "TE4",
+                    "ND",
+                    "NORM"
+                ]
+            }
+        },
+        {
+            "datatype": "func",
+            "suffix": "bold",
+            "custom_entities": "task-restME_echo-1_part-mag",
+            "criteria": {
+                "SeriesDescription": "*rest_ep2d_bold_4ME_6MIN_16bit_maton*",
+                "EchoNumber": 1,
+                "SidecarFilename": "*_e1.json",
+                "ImageTypeText": [
+                    "ORIGINAL",
+                    "PRIMARY",
+                    "M",
+                    "MB",
+                    "TE1",
+                    "ND",
+                    "NORM"
+                ]
+            }
+        },
+        {
+            "datatype": "func",
+            "suffix": "bold",
+            "custom_entities": "task-restME_echo-2_part-mag",
+            "criteria": {
+                "SeriesDescription": "*rest_ep2d_bold_4ME_6MIN_16bit_maton*",
+                "EchoNumber": 2,
+                "SidecarFilename": "*_e2.json",
+                "ImageTypeText": [
+                    "ORIGINAL",
+                    "PRIMARY",
+                    "M",
+                    "MB",
+                    "TE2",
+                    "ND",
+                    "NORM"
+                ]
+            }
+        },
+        {
+            "datatype": "func",
+            "suffix": "bold",
+            "custom_entities": "task-restME_echo-3_part-mag",
+            "criteria": {
+                "SeriesDescription": "*rest_ep2d_bold_4ME_6MIN_16bit_maton*",
+                "EchoNumber": 3,
+                "SidecarFilename": "*_e3.json",
+                "ImageTypeText": [
+                    "ORIGINAL",
+                    "PRIMARY",
+                    "M",
+                    "MB",
+                    "TE3",
+                    "ND",
+                    "NORM"
+                ]
+            }
+        },
+        {
+            "datatype": "func",
+            "suffix": "bold",
+            "custom_entities": "task-restME_echo-4_part-mag",
+            "criteria": {
+                "SeriesDescription": "*rest_ep2d_bold_4ME_6MIN_16bit_maton*",
+                "EchoNumber": 4,
+                "SidecarFilename": "*_e4.json",
+                "ImageTypeText": [
+                    "ORIGINAL",
+                    "PRIMARY",
+                    "M",
+                    "MB",
+                    "TE4",
+                    "ND",
+                    "NORM"
+                ]
+            }
+        },
+        {
+            "datatype": "func",
+            "suffix": "bold",
+            "custom_entities": "task-TASKME_echo-1_part-mag",
+            "criteria": {
+                "SeriesDescription": "*TASK_ep2d_bold_4ME_6MIN_16bit_maton*",
+                "EchoNumber": 1,
+                "SidecarFilename": "*_e1.json",
+                "ImageTypeText": [
+                    "ORIGINAL",
+                    "PRIMARY",
+                    "M",
+                    "MB",
+                    "TE1",
+                    "ND",
+                    "NORM"
+                ]
+            }
+        },
+        {
+            "datatype": "func",
+            "suffix": "bold",
+            "custom_entities": "task-TASKME_echo-2_part-mag",
+            "criteria": {
+                "SeriesDescription": "*TASK_ep2d_bold_4ME_6MIN_16bit_maton*",
+                "EchoNumber": 2,
+                "SidecarFilename": "*_e2.json",
+                "ImageTypeText": [
+                    "ORIGINAL",
+                    "PRIMARY",
+                    "M",
+                    "MB",
+                    "TE2",
+                    "ND",
+                    "NORM"
+                ]
+            }
+        },
+        {
+            "datatype": "func",
+            "suffix": "bold",
+            "custom_entities": "task-TASKME_echo-3_part-mag",
+            "criteria": {
+                "SeriesDescription": "*TASK_ep2d_bold_4ME_6MIN_16bit_maton*",
+                "EchoNumber": 3,
+                "SidecarFilename": "*_e3.json",
+                "ImageTypeText": [
+                    "ORIGINAL",
+                    "PRIMARY",
+                    "M",
+                    "MB",
+                    "TE3",
+                    "ND",
+                    "NORM"
+                ]
+            }
+        },
+        {
+            "datatype": "func",
+            "suffix": "bold",
+            "custom_entities": "task-TASKME_echo-4_part-mag",
+            "criteria": {
+                "SeriesDescription": "*TASK_ep2d_bold_4ME_6MIN_16bit_maton*",
+                "EchoNumber": 4,
+                "SidecarFilename": "*_e4.json",
+                "ImageTypeText": [
+                    "ORIGINAL",
+                    "PRIMARY",
+                    "M",
+                    "MB",
+                    "TE4",
+                    "ND",
+                    "NORM"
+                ]
+            }
+        },
+        {
+            "datatype": "anat",
+            "suffix": "T2w",
+            "criteria": {
+                "SeriesDescription": "T2w_SPC"
+            }
+        },
+        {
+            "datatype": "anat",
+            "suffix": "T2w",
+            "criteria": {
+                "ImageTypeText": [
+                    "ORIGINAL",
+                    "PRIMARY",
+                    "M",
+                    "ND",
+                    "NORM"
+                ],
+                "SeriesDescription": "ABCD_T2w_SPC_vNav"
+            }
+        },
+        {
+            "datatype": "anat",
+            "suffix": "T1w",
+            "criteria": {
+                "SeriesDescription": "T1w_MPR"
+            }
+        },
+        {
+            "datatype": "anat",
+            "suffix": "T1w",
+            "criteria": {
+                "ImageTypeText": [
+                    "ORIGINAL",
+                    "PRIMARY",
+                    "M",
+                    "ND",
+                    "NORM"
+                ],
+                "SeriesDescription": "ABCD_T1w_MPR_vNav"
+            }
+        },
+        {
+            "datatype": "fmap",
+            "suffix": "epi",
+            "custom_entities": "dir-AP",
+            "criteria": {
+                "SeriesDescription": "SpinEchoFieldMap_AP"
+            }
+        },
+        {
+            "datatype": "fmap",
+            "suffix": "epi",
+            "custom_entities": "dir-PA",
+            "criteria": {
+                "SeriesDescription": "SpinEchoFieldMap_PA"
+            }
+        },
+        {
+            "datatype": "fmap",
+            "suffix": "epi",
+            "custom_entities": "dir-AP",
+            "criteria": {
+                "SeriesDescription": "SpinEchoFieldMap_AP_forME",
+                "EchoNumber": 1
+            }
+        },
+        {
+            "datatype": "fmap",
+            "suffix": "epi",
+            "custom_entities": "dir-PA",
+            "criteria": {
+                "SeriesDescription": "SpinEchoFieldMap_PA_forME",
+                "EchoNumber": 1
+            }
+        }
+    ]
+}

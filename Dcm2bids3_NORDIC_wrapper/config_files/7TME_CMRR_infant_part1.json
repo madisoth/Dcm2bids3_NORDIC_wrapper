@@ -1,0 +1,71 @@
+{
+    "descriptions": [
+        {
+            "datatype": "func",
+            "suffix": "bold",
+            "custom_entities": "task-restME_echo-1_part-mag",
+            "criteria": {
+	        "SeriesDescription": "cmrr_mbep2d_bold_1pt6_ME3",
+                "EchoNumber": 1,
+                "SidecarFilename": "*_e1.json",
+	        "ImageType": ["ORIGINAL", "PRIMARY", "M", "MB", "TE1", "ND", "MOSAIC"]
+            }
+        },
+        {
+            "datatype": "func",
+            "suffix": "bold",
+            "custom_entities": "task-restME_echo-2_part-mag",
+            "criteria": {
+	        "SeriesDescription": "cmrr_mbep2d_bold_1pt6_ME3",
+                "EchoNumber": 2,
+                "SidecarFilename": "*_e2.json",
+	        "ImageType": ["ORIGINAL", "PRIMARY", "M", "MB", "TE2", "ND", "MOSAIC"]
+            }
+        },
+        {
+            "datatype": "func",
+            "suffix": "bold",
+            "custom_entities": "task-restME_echo-3_part-mag",
+            "criteria": {
+	        "SeriesDescription": "cmrr_mbep2d_bold_1pt6_ME3",
+                "EchoNumber": 3,
+                "SidecarFilename": "*_e3.json",
+	        "ImageType": ["ORIGINAL", "PRIMARY", "M", "MB", "TE3", "ND", "MOSAIC"]
+            }
+        },
+        {
+            "datatype": "fmap",
+            "suffix": "epi",
+            "custom_entities": "dir-AP",
+            "criteria": {
+	        "SeriesDescription": "SE_Fieldmap_AP",
+	        "ImageType": ["ORIGINAL", "PRIMARY", "M", "ND", "MOSAIC"]
+            }
+        },
+        {
+            "datatype": "fmap",
+            "suffix": "epi",
+            "custom_entities": "dir-PA",
+            "criteria": {
+	        "SeriesDescription": "SE_Fieldmap_PA",
+	        "ImageType": ["ORIGINAL", "PRIMARY", "M", "ND", "MOSAIC"]
+            }
+        },
+        {
+            "datatype": "anat",
+            "suffix": "T2w",
+            "criteria": {
+	        "SeriesDescription": "t2_spcR_sag_p6_0.7mm",
+	        "ImageType": ["ORIGINAL", "PRIMARY", "M", "ND", "NORM"]
+            }
+        },
+        {
+            "datatype": "anat",
+            "suffix": "T1w",
+            "criteria": {
+	        "SeriesDescription": "tfl_mfm_FOCI_0p7mm_ipat4_tr5380_TI2600_INV2",
+	        "ImageType": ["ORIGINAL", "PRIMARY", "M", "ND"]
+            }
+        }
+    ]
+}

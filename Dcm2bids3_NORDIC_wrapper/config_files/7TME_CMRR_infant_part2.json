@@ -1,0 +1,46 @@
+{
+    "descriptions": [
+        {
+            "datatype": "func",
+            "suffix": "bold",
+            "custom_entities": "task-restME_echo-1_part-phase",
+            "criteria": {
+	        "SeriesDescription": "cmrr_mbep2d_bold_1pt6_ME3_Pha",
+                "EchoNumber": 1,
+                "SidecarFilename": "*_e1_ph.json",
+	        "ImageType": ["ORIGINAL", "PRIMARY", "P", "MB", "TE1", "ND", "MOSAIC", "PHASE"]
+            }
+        },
+        {
+            "datatype": "func",
+            "suffix": "bold",
+            "custom_entities": "task-restME_echo-2_part-phase",
+            "criteria": {
+	        "SeriesDescription": "cmrr_mbep2d_bold_1pt6_ME3_Pha",
+                "EchoNumber": 2,
+                "SidecarFilename": "*_e2_ph.json",
+	        "ImageType": ["ORIGINAL", "PRIMARY", "P", "MB", "TE2", "ND", "MOSAIC", "PHASE"]
+            }
+        },
+        {
+            "datatype": "func",
+            "suffix": "bold",
+            "custom_entities": "task-restME_echo-3_part-phase",
+            "criteria": {
+	        "SeriesDescription": "cmrr_mbep2d_bold_1pt6_ME3_Pha",
+                "EchoNumber": 3,
+                "SidecarFilename": "*_e3_ph.json",
+	        "ImageType": ["ORIGINAL", "PRIMARY", "P", "MB", "TE3", "ND", "MOSAIC", "PHASE"]
+            }
+        }
+    ],
+    "post_op": [
+        {
+            "cmd": "sbatch --wait /home/faird/shared/code/internal/utilities/Dcm2bids3_NORDIC_wrapper/nordicsbatch.sh src_file dst_file 3 --keep-non-nordic",
+            "datatype": "func",
+            "suffix": [
+                "bold"
+            ]
+        }
+    ]
+}

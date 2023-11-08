@@ -1,0 +1,102 @@
+{
+    "descriptions": [
+	{
+            "datatype": "func",
+            "suffix": "bold",
+            "custom_entities": "task-restSE_part-mag",
+            "criteria": {
+	            "SeriesDescription": "BOLD_2mm_mb8_se",
+	            "ImageType": ["ORIGINAL", "PRIMARY", "M", "MB", "ND", "NORM", "MOSAIC"]
+            }
+        },
+	{
+            "datatype": "func",
+            "suffix": "bold",
+            "custom_entities": "task-restSE_part-mag",
+            "criteria": {
+	            "SeriesDescription": "rfMRI_REST_AP",
+		    "ImageType": ["ORIGINAL", "PRIMARY", "M", "MB", "ND", "NORM", "MOSAIC"]
+            }
+        },
+	{
+            "datatype": "func",
+            "suffix": "bold",
+            "custom_entities": "task-restSE_part-mag",
+            "criteria": {
+	            "SeriesDescription": "rfMRI_REST_AP_15MIN",
+		    "ImageType": ["ORIGINAL", "PRIMARY", "M", "MB", "ND", "NORM", "MOSAIC"]
+            }
+        },
+        {
+            "datatype": "func",
+            "suffix": "bold",
+            "custom_entities": "task-restME_echo-1_part-mag",
+            "criteria": {
+                "SeriesDescription": "BOLD_NORDIC_ME5_2mm", 	
+		"EchoNumber": 1,
+	        "ImageType": ["ORIGINAL", "PRIMARY", "M", "MB", "TE1", "ND", "NORM", "MOSAIC"]
+            }
+        },
+	{
+            "datatype": "func",
+            "suffix": "bold",
+            "custom_entities": "task-restME_echo-2_part-mag",
+            "criteria": {
+                "SeriesDescription": "BOLD_NORDIC_ME5_2mm",
+		"EchoNumber": 2,
+	        "ImageType": ["ORIGINAL", "PRIMARY", "M", "MB", "TE2", "ND", "NORM", "MOSAIC"]
+            }
+        },
+	{
+            "datatype": "func",
+            "suffix": "bold",
+            "custom_entities": "task-restME_echo-3_part-mag",
+            "criteria": {
+                "SeriesDescription": "BOLD_NORDIC_ME5_2mm",
+		"EchoNumber": 3,
+	        "ImageType": ["ORIGINAL", "PRIMARY", "M", "MB", "TE3", "ND", "NORM", "MOSAIC"]
+            }
+        },
+	{
+            "datatype": "func",
+            "suffix": "bold",
+            "custom_entities": "task-restME_echo-4_part-mag",
+            "criteria": {
+                "SeriesDescription": "BOLD_NORDIC_ME5_2mm",
+		"EchoNumber": 4,
+	        "ImageType": ["ORIGINAL", "PRIMARY", "M", "MB", "TE4", "ND", "NORM", "MOSAIC"]
+            }
+        },
+        {
+            "datatype": "anat",
+            "suffix": "T1w",
+            "criteria": {
+                "SeriesDescription": "T1w_MPR"
+            }
+        },
+        {
+            "datatype": "anat",
+            "suffix": "T2w",
+            "criteria": {
+                "SeriesDescription": "T2w_SPC"
+            }
+        },
+        {
+            "datatype": "fmap",
+            "suffix": "epi",
+            "custom_entities": "dir-AP",
+            "criteria": {
+	    "SeriesDescription": "SpinEchoFieldMap_AP_forME_2mm"
+            }
+        },
+	{
+            "datatype": "fmap",
+            "suffix": "epi",
+            "custom_entities": "dir-PA",
+            "criteria": {
+	    "SeriesDescription": "SpinEchoFieldMap_PA_forME_2mm"
+            }
+        }
+
+    ]
+}

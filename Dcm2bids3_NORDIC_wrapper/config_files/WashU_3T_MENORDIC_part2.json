@@ -1,0 +1,71 @@
+{
+    "descriptions": [
+	{
+            "datatype": "func",
+            "suffix": "bold",
+            "custom_entities": "task-restSE_part-phase",
+            "criteria": {
+	            "SeriesDescription": "rfMRI_REST_AP_15MIN",
+		    "SidecarFilename": "*_ph.json"
+            }
+        },
+	    {
+            "datatype": "func",
+            "suffix": "bold",
+            "custom_entities": "task-restSE_part-phase",
+            "criteria": {
+	            "SeriesDescription": "rfMRI_REST_AP",
+		    "SidecarFilename": "*_ph.json"
+            }
+        },
+        {
+            "datatype": "func",
+            "suffix": "bold",
+            "custom_entities": "task-restME_echo-1_part-phase",
+            "criteria": {
+                "SeriesDescription": "BOLD_NORDIC_ME5_2mm",
+		"EchoNumber": 1,
+	        "ImageType": ["ORIGINAL", "PRIMARY", "P", "MB", "TE1", "ND", "MOSAIC", "PHASE"]
+            }
+        },
+	{
+            "datatype": "func",
+            "suffix": "bold",
+            "custom_entities": "task-restME_echo-2_part-phase",
+            "criteria": {
+                "SeriesDescription": "BOLD_NORDIC_ME5_2mm",
+		"EchoNumber": 2,
+	        "ImageType": ["ORIGINAL", "PRIMARY", "P", "MB", "TE2", "ND", "MOSAIC", "PHASE"]
+            }
+        },
+	{
+            "datatype": "func",
+            "suffix": "bold",
+            "custom_entities": "task-restME_echo-3_part-phase",
+            "criteria": {
+                "SeriesDescription": "BOLD_NORDIC_ME5_2mm",
+		"EchoNumber": 3,
+	        "ImageType": ["ORIGINAL", "PRIMARY", "P", "MB", "TE3", "ND", "MOSAIC", "PHASE"]
+            }
+        },
+	{
+            "datatype": "func",
+            "suffix": "bold",
+            "custom_entities": "task-restME_echo-4_part-phase",
+            "criteria": {
+                "SeriesDescription": "BOLD_NORDIC_ME5_2mm",
+		"EchoNumber": 4,
+	        "ImageType": ["ORIGINAL", "PRIMARY", "P", "MB", "TE4", "ND", "MOSAIC", "PHASE"]
+            }
+        }
+    ],
+    "post_op": [
+        {
+            "cmd": "sbatch --wait /home/faird/shared/code/internal/utilities/Dcm2bids3_NORDIC_wrapper/nordicsbatch.sh src_file dst_file 3",
+            "datatype": "func",
+            "suffix": [
+                "bold"
+            ]
+        }
+    ]
+}

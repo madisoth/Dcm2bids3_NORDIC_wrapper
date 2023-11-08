@@ -1,0 +1,321 @@
+{
+    "descriptions": [
+        {
+            "datatype": "func",
+            "suffix": "bold",
+            "custom_entities": "task-restSE_part-phase",
+            "criteria": {
+                "SeriesDescription": "rfMRI_REST_AP_15MIN",
+                "SidecarFilename": "*_ph.json"
+            }
+        },
+        {
+            "datatype": "func",
+            "suffix": "bold",
+            "custom_entities": "task-restSE_part-phase",
+            "criteria": {
+                "SeriesDescription": "rfMRI_REST_AP",
+                "SidecarFilename": "*_ph.json"
+            }
+        },
+        {
+            "datatype": "func",
+            "suffix": "bold",
+            "custom_entities": "task-restME_part-phase_echo-1",
+            "criteria": {
+                "SeriesDescription": "*rest_ep2d_bold_4ME_16MIN_16bit_maton*_Pha",
+                "ImageTypeText": [
+                    "ORIGINAL",
+                    "PRIMARY",
+                    "P",
+                    "MB",
+                    "TE1",
+                    "ND"
+                ],
+                "EchoNumber": 1,
+                "SidecarFilename": "*e1_ph.json"
+            }
+        },
+        {
+            "datatype": "func",
+            "suffix": "bold",
+            "custom_entities": "task-restME_part-phase_echo-2",
+            "criteria": {
+                "SeriesDescription": "*rest_ep2d_bold_4ME_16MIN_16bit_maton*_Pha",
+                "ImageTypeText": [
+                    "ORIGINAL",
+                    "PRIMARY",
+                    "P",
+                    "MB",
+                    "TE2",
+                    "ND"
+                ],
+                "EchoNumber": 2,
+                "SidecarFilename": "*e2_ph.json"
+            }
+        },
+        {
+            "datatype": "func",
+            "suffix": "bold",
+            "custom_entities": "task-restME_part-phase_echo-3",
+            "criteria": {
+                "SeriesDescription": "*rest_ep2d_bold_4ME_16MIN_16bit_maton*_Pha",
+                "ImageTypeText": [
+                    "ORIGINAL",
+                    "PRIMARY",
+                    "P",
+                    "MB",
+                    "TE3",
+                    "ND"
+                ],
+                "EchoNumber": 3,
+                "SidecarFilename": "*e3_ph.json"
+            }
+        },
+        {
+            "datatype": "func",
+            "suffix": "bold",
+            "custom_entities": "task-restME_part-phase_echo-4",
+            "criteria": {
+                "SeriesDescription": "*rest_ep2d_bold_4ME_16MIN_16bit_maton*_Pha",
+                "ImageTypeText": [
+                    "ORIGINAL",
+                    "PRIMARY",
+                    "P",
+                    "MB",
+                    "TE4",
+                    "ND"
+                ],
+                "EchoNumber": 4,
+                "SidecarFilename": "*e4_ph.json"
+            }
+        },
+        {
+            "datatype": "func",
+            "suffix": "bold",
+            "custom_entities": "task-restME_part-phase_echo-1",
+            "criteria": {
+                "SeriesDescription": "*rest_ep2d_bold_4ME_10MIN_16bit_maton*_Pha",
+                "ImageTypeText": [
+                    "ORIGINAL",
+                    "PRIMARY",
+                    "P",
+                    "MB",
+                    "TE1",
+                    "ND"
+                ],
+                "EchoNumber": 1,
+                "SidecarFilename": "*e1_ph.json"
+            }
+        },
+        {
+            "datatype": "func",
+            "suffix": "bold",
+            "custom_entities": "task-restME_part-phase_echo-2",
+            "criteria": {
+                "SeriesDescription": "*rest_ep2d_bold_4ME_10MIN_16bit_maton*_Pha",
+                "ImageTypeText": [
+                    "ORIGINAL",
+                    "PRIMARY",
+                    "P",
+                    "MB",
+                    "TE2",
+                    "ND"
+                ],
+                "EchoNumber": 2,
+                "SidecarFilename": "*e2_ph.json"
+            }
+        },
+        {
+            "datatype": "func",
+            "suffix": "bold",
+            "custom_entities": "task-restME_part-phase_echo-3",
+            "criteria": {
+                "SeriesDescription": "*rest_ep2d_bold_4ME_10MIN_16bit_maton*_Pha",
+                "ImageTypeText": [
+                    "ORIGINAL",
+                    "PRIMARY",
+                    "P",
+                    "MB",
+                    "TE3",
+                    "ND"
+                ],
+                "EchoNumber": 3,
+                "SidecarFilename": "*e3_ph.json"
+            }
+        },
+        {
+            "datatype": "func",
+            "suffix": "bold",
+            "custom_entities": "task-restME_part-phase_echo-4",
+            "criteria": {
+                "SeriesDescription": "*rest_ep2d_bold_4ME_10MIN_16bit_maton*_Pha",
+                "ImageTypeText": [
+                    "ORIGINAL",
+                    "PRIMARY",
+                    "P",
+                    "MB",
+                    "TE4",
+                    "ND"
+                ],
+                "EchoNumber": 4,
+                "SidecarFilename": "*e4_ph.json"
+            }
+        },
+        {
+            "datatype": "func",
+            "suffix": "bold",
+            "custom_entities": "task-restME_part-phase_echo-1",
+            "criteria": {
+                "SeriesDescription": "*rest_ep2d_bold_4ME_6MIN_16bit_maton*_Pha",
+                "ImageTypeText": [
+                    "ORIGINAL",
+                    "PRIMARY",
+                    "P",
+                    "MB",
+                    "TE1",
+                    "ND"
+                ],
+                "EchoNumber": 1,
+                "SidecarFilename": "*e1_ph.json"
+            }
+        },
+        {
+            "datatype": "func",
+            "suffix": "bold",
+            "custom_entities": "task-restME_part-phase_echo-2",
+            "criteria": {
+                "SeriesDescription": "*rest_ep2d_bold_4ME_6MIN_16bit_maton*_Pha",
+                "ImageTypeText": [
+                    "ORIGINAL",
+                    "PRIMARY",
+                    "P",
+                    "MB",
+                    "TE2",
+                    "ND"
+                ],
+                "EchoNumber": 2,
+                "SidecarFilename": "*e2_ph.json"
+            }
+        },
+        {
+            "datatype": "func",
+            "suffix": "bold",
+            "custom_entities": "task-restME_part-phase_echo-3",
+            "criteria": {
+                "SeriesDescription": "*rest_ep2d_bold_4ME_6MIN_16bit_maton*_Pha",
+                "ImageTypeText": [
+                    "ORIGINAL",
+                    "PRIMARY",
+                    "P",
+                    "MB",
+                    "TE3",
+                    "ND"
+                ],
+                "EchoNumber": 3,
+                "SidecarFilename": "*e3_ph.json"
+            }
+        },
+        {
+            "datatype": "func",
+            "suffix": "bold",
+            "custom_entities": "task-restME_part-phase_echo-4",
+            "criteria": {
+                "SeriesDescription": "*rest_ep2d_bold_4ME_6MIN_16bit_maton*_Pha",
+                "ImageTypeText": [
+                    "ORIGINAL",
+                    "PRIMARY",
+                    "P",
+                    "MB",
+                    "TE4",
+                    "ND"
+                ],
+                "EchoNumber": 4,
+                "SidecarFilename": "*e4_ph.json"
+            }
+        },
+        {
+            "datatype": "func",
+            "suffix": "bold",
+            "custom_entities": "task-TASKME_part-phase_echo-1",
+            "criteria": {
+                "SeriesDescription": "*TASK_ep2d_bold_4ME_6MIN_16bit_maton*_Pha",
+                "ImageTypeText": [
+                    "ORIGINAL",
+                    "PRIMARY",
+                    "P",
+                    "MB",
+                    "TE1",
+                    "ND"
+                ],
+                "EchoNumber": 1,
+                "SidecarFilename": "*e1_ph.json"
+            }
+        },
+        {
+            "datatype": "func",
+            "suffix": "bold",
+            "custom_entities": "task-TASKME_part-phase_echo-2",
+            "criteria": {
+                "SeriesDescription": "*TASK_ep2d_bold_4ME_6MIN_16bit_maton*_Pha",
+                "ImageTypeText": [
+                    "ORIGINAL",
+                    "PRIMARY",
+                    "P",
+                    "MB",
+                    "TE2",
+                    "ND"
+                ],
+                "EchoNumber": 2,
+                "SidecarFilename": "*e2_ph.json"
+            }
+        },
+        {
+            "datatype": "func",
+            "suffix": "bold",
+            "custom_entities": "task-TASKME_part-phase_echo-3",
+            "criteria": {
+                "SeriesDescription": "*TASK_ep2d_bold_4ME_6MIN_16bit_maton*_Pha",
+                "ImageTypeText": [
+                    "ORIGINAL",
+                    "PRIMARY",
+                    "P",
+                    "MB",
+                    "TE3",
+                    "ND"
+                ],
+                "EchoNumber": 3,
+                "SidecarFilename": "*e3_ph.json"
+            }
+        },
+        {
+            "datatype": "func",
+            "suffix": "bold",
+            "custom_entities": "task-TASKME_part-phase_echo-4",
+            "criteria": {
+                "SeriesDescription": "*TASK_ep2d_bold_4ME_6MIN_16bit_maton*_Pha",
+                "ImageTypeText": [
+                    "ORIGINAL",
+                    "PRIMARY",
+                    "P",
+                    "MB",
+                    "TE4",
+                    "ND"
+                ],
+                "EchoNumber": 4,
+                "SidecarFilename": "*e4_ph.json"
+            }
+        }
+    ],
+
+    "post_op": [
+        {
+            "cmd": "sbatch --wait /home/faird/shared/code/internal/utilities/Dcm2bids3_NORDIC_wrapper/nordicsbatch.sh src_file dst_file 3",
+            "datatype": "func",
+            "suffix": [
+                "bold"
+            ]
+        }
+    ]
+
+}
